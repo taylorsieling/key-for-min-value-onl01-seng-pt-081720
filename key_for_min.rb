@@ -2,16 +2,19 @@
 # Given a hash with numeric values, return the key for the smallest value
 
 def key_for_min_value(name_hash)
-  comparitive_value == 0 
-  comparitive_key == nil
+  lowest_value == 0 
+  lowest_key == nil
   
-  #set values to compare the hash to
+  #set current minimum to compare the hash to
   #next start the interation
   
   name_hash.each do |key, value|
-    if comparitive_value = 0 
-      comparitive_value = value
-      comparitive_key = key
+    if lowest_value = 0 
+      lowest_value = value
+      lowest_key = key
+      
+  # if the    
+      
     end
   end
 end
